@@ -40,7 +40,7 @@ const homePage = async ({ searchParams }: SearchParamProps) => {
 
       <section className='sm:mt-12'>
         <Collection
-          // hasSearch={true} //Search Box
+          hasSearch={true} //Search Box
           images={images?.data}
           totalPages={images?.totalPage}
           page={page}
